@@ -1,0 +1,27 @@
+.ads{
+  background: $bg;
+  h2{
+    font-size: 40px;
+    color: $heading-color;
+  }
+  .ads-tel{
+    font-family: $inter;
+    color: $primery-color;
+    font-size: 80px;
+    font-weight: 800;
+    text-shadow: -5px 5px 0px #E9EE09;
+  }
+  .button{
+    a{
+    font-size: 18px;
+    font-weight: 600;
+    background: #FF0057;
+    padding: 10px 30px;
+    font-family: $inter;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #ffffff;
+    }
+  }
+}
+ 

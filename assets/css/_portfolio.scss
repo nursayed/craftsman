@@ -1,0 +1,28 @@
+.portfolio-bg {
+  background: #e8f2f8;
+}
+.portfolio {
+  background: #e8f2f8;
+  h2 {
+    font-size: 40px;
+    font-family: $inter;
+    color: $heading-color;
+  }
+}
+.portfolio-bg{
+  img {
+    margin: 10px 0;
+  }
+}
+.filter-active {
+  color: $primery-color;
+  font-weight: 500;
+}
+.btn-check:focus + .btn,
+.btn:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+.btn:hover {
+  color: $primery-color !important;
+}

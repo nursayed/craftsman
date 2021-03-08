@@ -1,0 +1,49 @@
+.header-top{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  .contact-info{
+    display: flex;
+    i{
+      padding: 0 5px 0 0;
+      font-size: 18px;
+      color: $primery-color;
+    }
+    a{
+      color: grey;
+      font-family: $inter;
+      font-weight: 300;
+    }
+    .number{
+      padding: 0 2rem 0 0;
+      display: flex;
+      align-items: center;
+    }
+    .email{
+      display: flex;
+      align-items: center;
+    }
+  }
+  .social-media{
+    i{
+      font-size: 18px;
+      padding: 0 10px;
+      color: $primery-color;
+    }
+  }
+}
+// navbar
+.navbar{
+  padding: 0;
+}
+.nav-item{
+  padding: 0 0 0 20px;
+}
+.nav-link{
+  font-family: inter;
+}
+.contact-btn{
+  background:$primery-color;
+  color: #fff !important;
+  border-radius: 5px;
+ }

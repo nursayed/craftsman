@@ -1,0 +1,76 @@
+.service{
+  h2{
+    font-size: 30px;
+    font-family: $inter;
+    font-weight: 600;
+  }
+  p{
+    font-size: 18px;
+    font-family: $inter;
+    padding: 8px 0;
+  }
+  .button{
+    a{
+    background: $primery-color;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffff;
+    }
+  }
+}
+.service-box-one{
+  background: $primery-color;
+  color: #ffffff;
+      padding: 0 15px;
+  p{
+    color: #e6e6e6;
+  }
+}
+.service-box{
+      padding: 0 15px;
+  margin: 0 0 22px 0;
+  img{
+    width: 60px;
+    padding: 0 0 20px;
+  }
+  h3{
+    font-size: 24px;
+    font-family: $inter;
+  }
+  p{
+    font-size: 18px;
+    font-family: $inter;
+    font-style: italic;
+    margin: 0 0 10px 0;
+    font-weight: 200;
+  }
+  a{
+    color: #ffffff;
+    &:hover{
+      color: $heading-color;
+    }
+    i{
+      font-size: 12px;
+      padding: 0 0 0 5px;
+    }
+  }
+}
+.service-box-two{
+      padding: 0 15px;
+  outline: 1px solid $primery-color;
+  p{
+    font-weight: 300;
+  }
+   a{
+    color: $primery-color;
+    &:hover{
+      color: $heading-color;
+    }
+    i{
+      font-size: 12px;
+      padding: 0 0 0 5px;
+    }
+  }
+}
