@@ -162,8 +162,9 @@
 }
 
 .filter-active {
-  color: #FF0057;
+  color: #ffffff;
   font-weight: 500;
+  background: #FF0057;
 }
 
 .btn-check:focus + .btn,
@@ -174,7 +175,8 @@
 }
 
 .btn:hover {
-  color: #FF0057 !important;
+  color: #ffffff !important;
+  background: #FF0057;
 }
 
 .ads {

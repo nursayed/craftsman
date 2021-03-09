@@ -15,8 +15,9 @@
   }
 }
 .filter-active {
-  color: $primery-color;
+  color: #ffffff;
   font-weight: 500;
+  background: $primery-color;
 }
 .btn-check:focus + .btn,
 .btn:focus {
@@ -24,5 +25,6 @@
   box-shadow: none !important;
 }
 .btn:hover {
-  color: $primery-color !important;
+  color: #ffffff !important;
+   background: $primery-color;
 }
