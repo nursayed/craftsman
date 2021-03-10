@@ -259,6 +259,17 @@ figcaption span {
   padding: 10px 0 30px 0 !important;
 }
 
+.modal-body .button a {
+  font-size: 18px;
+  font-weight: 600;
+  background: #FF0057;
+  padding: 10px 30px;
+  font-family: "Inter", sans-serif;
+  border-radius: 5px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
 .ads {
   background: #e8f2f8;
 }
