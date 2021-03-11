@@ -43,7 +43,12 @@
   font-family: inter;
 }
 .contact-btn{
-  background:$primery-color;
-  color: #fff !important;
+  color: rgba(0,0,0,.55)!important;
   border-radius: 5px;
+  border: 1px solid #FF0057;
+   &:hover{
+      background: #FF0057;
+      transition: .5s;
+      color: #fff !important;
+    }
  }

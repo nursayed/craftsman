@@ -14,11 +14,16 @@
     padding: 0 0 20px 0;
   }
   .button {
-    background: $primery-color;
+    border: 1px solid #FF0057;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 18px;
     font-weight: 600;
-    color: #ffff;
+    color: $heading-color;
+    &:hover{
+      background: #FF0057;
+      transition: .5s;
+      color: #fff;
+    }
   }
 }

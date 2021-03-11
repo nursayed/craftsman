@@ -71,9 +71,16 @@
 }
 
 .contact-btn {
-  background: #FF0057;
-  color: #fff !important;
+  color: rgba(0, 0, 0, 0.55) !important;
   border-radius: 5px;
+  border: 1px solid #FF0057;
+}
+
+.contact-btn:hover {
+  background: #FF0057;
+  -webkit-transition: .5s;
+  transition: .5s;
+  color: #fff !important;
 }
 
 .presentaion {
@@ -94,36 +101,26 @@
   color: #302C4A;
 }
 
-.presentaion .play-video {
-  padding: 15px 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 50%;
+.presentaion p {
+  margin-bottom: 1.5rem;
 }
 
-.presentaion .play-video:hover a {
-  color: #FF0057;
-  -webkit-transition: .5s;
-  transition: .5s;
-}
-
-.presentaion .play-video i {
-  font-size: 30px;
-  color: #FF0057;
-  padding: 5px;
-  border: 2px solid red;
-  border-radius: 50%;
-  margin: 0px 10px 0 0;
-}
-
-.presentaion .play-video a {
+.presentaion .button {
   font-size: 18px;
   font-weight: 600;
+  border: 1px solid #FF0057;
+  padding: 10px 30px;
+  font-family: "Inter", sans-serif;
+  border-radius: 5px;
+  font-weight: 500;
   color: #302C4A;
+}
+
+.presentaion .button:hover {
+  background: #FF0057;
+  -webkit-transition: .5s;
+  transition: .5s;
+  color: #fff;
 }
 
 .about-img img {
@@ -142,12 +139,19 @@
 }
 
 .about-info .button {
-  background: #FF0057;
+  border: 1px solid #FF0057;
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 18px;
   font-weight: 600;
-  color: #ffff;
+  color: #302C4A;
+}
+
+.about-info .button:hover {
+  background: #FF0057;
+  -webkit-transition: .5s;
+  transition: .5s;
+  color: #fff;
 }
 
 figure {
@@ -156,8 +160,7 @@ figure {
 
 figure:before {
   content: '';
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(5.16%, rgba(233, 238, 9, 0.5)), to(rgba(255, 0, 87, 0.5)));
-  background: linear-gradient(0deg, rgba(233, 238, 9, 0.5) 5.16%, rgba(255, 0, 87, 0.5) 100%);
+  background: #ff0055a8;
   display: block;
   z-index: 1;
   position: absolute;
@@ -290,12 +293,19 @@ figcaption span {
 .ads .button a {
   font-size: 18px;
   font-weight: 600;
-  background: #FF0057;
+  border: 1px solid #FF0057;
   padding: 10px 30px;
   font-family: "Inter", sans-serif;
   border-radius: 5px;
   font-weight: 500;
-  color: #ffffff;
+  color: #302C4A;
+}
+
+.ads .button a:hover {
+  background: #FF0057;
+  -webkit-transition: .5s;
+  transition: .5s;
+  color: #fff;
 }
 
 .star-review i {
@@ -1207,12 +1217,19 @@ figcaption span {
 }
 
 .service .button a {
-  background: #FF0057;
+  border: 1px solid #FF0057;
   padding: 8px 20px;
   border-radius: 5px;
-  font-size: 18px;
-  font-weight: 600;
-  color: #ffff;
+  font-size: 16px;
+  font-weight: 500;
+  color: #302C4A;
+}
+
+.service .button a:hover {
+  background: #FF0057;
+  -webkit-transition: .5s;
+  transition: .5s;
+  color: #fff !important;
 }
 
 .service-box-one {

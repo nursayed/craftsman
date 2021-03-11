@@ -15,12 +15,17 @@
     a{
     font-size: 18px;
     font-weight: 600;
-    background: #FF0057;
+   border: 1px solid #FF0057;
     padding: 10px 30px;
     font-family: $inter;
     border-radius: 5px;
     font-weight: 500;
-    color: #ffffff;
+    color:$heading-color;
+    &:hover{
+      background: #FF0057;
+      transition: .5s;
+      color: #fff;
+    }
     }
   }
 }

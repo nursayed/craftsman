@@ -11,12 +11,17 @@
   }
   .button{
     a{
-    background: $primery-color;
+    border: 1px solid #FF0057;
     padding: 8px 20px;
     border-radius: 5px;
-    font-size: 18px;
-    font-weight: 600;
-    color: #ffff;
+    font-size: 16px;
+    font-weight: 500;
+    color: $heading-color;
+    &:hover{
+      background: #FF0057;
+      transition: .5s;
+      color: #fff !important;
+    }
     }
   }
 }
