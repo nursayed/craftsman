@@ -245,7 +245,21 @@ figcaption span {
   font-weight: 500;
   background: #FF0057;
 }
-
+/* .dj:before{
+content: '';
+  background: #ff0055a8;
+  display: block;
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1 !important;
+}
+.dj figcaption{
+  opacity: 1 !important;
+} */
 .btn-check:focus + .btn,
 .btn:focus {
   outline: 0;
