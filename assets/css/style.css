@@ -1405,5 +1405,21 @@ figcaption span {
   .footer .footer-bottom ul li {
     padding: 0 10px;
   }
+  .footer .footer-bottom p {
+    font-size: 16px !important;
+  }
+  .ads h2 {
+    font-size: 30px;
+  }
+  .ads .ads-tel {
+    font-size: 70px;
+  }
+  .portfolio h2 {
+    font-size: 30px;
+  }
+  font-size: 60px;
+}
+.footer .footer-bottom ul li {
+    padding: 0px 6px;
 }
 /*# sourceMappingURL=style.css.map */
